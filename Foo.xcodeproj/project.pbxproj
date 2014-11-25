@@ -30,10 +30,10 @@
 		FA6319BD1A1BD62C00E0E18C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6319BC1A1BD62C00E0E18C /* NotificationController.swift */; };
 		FA6319BF1A1BD62C00E0E18C /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6319BE1A1BD62C00E0E18C /* GlanceController.swift */; };
 		FA6319C11A1BD62C00E0E18C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6319C01A1BD62C00E0E18C /* Images.xcassets */; };
-		FA6319C51A1BD62C00E0E18C /* GithubNotifications Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = FA6319C41A1BD62C00E0E18C /* GithubNotifications Watch App.app */; };
+		FA6319C51A1BD62C00E0E18C /* Foo Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = FA6319C41A1BD62C00E0E18C /* Foo Watch App.app */; };
 		FA6319CC1A1BD62C00E0E18C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6319CB1A1BD62C00E0E18C /* Interface.storyboard */; };
 		FA6319CE1A1BD62C00E0E18C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6319CD1A1BD62C00E0E18C /* Images.xcassets */; };
-		FA6319D11A1BD62C00E0E18C /* GithubNotifications WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA6319B21A1BD62C00E0E18C /* GithubNotifications WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA6319D11A1BD62C00E0E18C /* Foo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA6319B21A1BD62C00E0E18C /* Foo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FA6319D11A1BD62C00E0E18C /* GithubNotifications WatchKit Extension.appex in Embed App Extensions */,
+				FA6319D11A1BD62C00E0E18C /* Foo WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +79,7 @@
 		FA4BA4421A1DC68B00555223 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		FA4BA4461A1DCC3A00555223 /* MediaClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaClient.swift; sourceTree = "<group>"; };
 		FA4BA44A1A1DCE5500555223 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		FA6319861A1BD61F00E0E18C /* GithubNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6319861A1BD61F00E0E18C /* Foo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA63198A1A1BD61F00E0E18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA63198B1A1BD61F00E0E18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA63198E1A1BD61F00E0E18C /* Foo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foo.xcdatamodel; sourceTree = "<group>"; };
@@ -87,10 +87,10 @@
 		FA6319931A1BD61F00E0E18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA6319951A1BD61F00E0E18C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA6319981A1BD61F00E0E18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FA63199E1A1BD61F00E0E18C /* GithubNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA63199E1A1BD61F00E0E18C /* FooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6319A31A1BD62000E0E18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6319A41A1BD62000E0E18C /* FooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooTests.swift; sourceTree = "<group>"; };
-		FA6319B21A1BD62C00E0E18C /* GithubNotifications WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GithubNotifications WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6319B21A1BD62C00E0E18C /* Foo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Foo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6319B41A1BD62C00E0E18C /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		FA6319B81A1BD62C00E0E18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6319B91A1BD62C00E0E18C /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		FA6319BC1A1BD62C00E0E18C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		FA6319BE1A1BD62C00E0E18C /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		FA6319C01A1BD62C00E0E18C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA6319C41A1BD62C00E0E18C /* GithubNotifications Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GithubNotifications Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6319C41A1BD62C00E0E18C /* Foo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6319CA1A1BD62C00E0E18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6319CB1A1BD62C00E0E18C /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		FA6319CD1A1BD62C00E0E18C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -145,10 +145,10 @@
 		FA6319871A1BD61F00E0E18C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA6319861A1BD61F00E0E18C /* GithubNotifications.app */,
-				FA63199E1A1BD61F00E0E18C /* GithubNotificationsTests.xctest */,
-				FA6319B21A1BD62C00E0E18C /* GithubNotifications WatchKit Extension.appex */,
-				FA6319C41A1BD62C00E0E18C /* GithubNotifications Watch App.app */,
+				FA6319861A1BD61F00E0E18C /* Foo.app */,
+				FA63199E1A1BD61F00E0E18C /* FooTests.xctest */,
+				FA6319B21A1BD62C00E0E18C /* Foo WatchKit Extension.appex */,
+				FA6319C41A1BD62C00E0E18C /* Foo Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,9 +246,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA6319851A1BD61F00E0E18C /* GithubNotifications */ = {
+		FA6319851A1BD61F00E0E18C /* Foo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA6319A81A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "GithubNotifications" */;
+			buildConfigurationList = FA6319A81A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "Foo" */;
 			buildPhases = (
 				FA6319821A1BD61F00E0E18C /* Sources */,
 				FA6319831A1BD61F00E0E18C /* Frameworks */,
@@ -260,14 +260,14 @@
 			dependencies = (
 				FA6319D01A1BD62C00E0E18C /* PBXTargetDependency */,
 			);
-			name = GithubNotifications;
+			name = Foo;
 			productName = Foo;
-			productReference = FA6319861A1BD61F00E0E18C /* GithubNotifications.app */;
+			productReference = FA6319861A1BD61F00E0E18C /* Foo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA63199D1A1BD61F00E0E18C /* GithubNotificationsTests */ = {
+		FA63199D1A1BD61F00E0E18C /* FooTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA6319AB1A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "GithubNotificationsTests" */;
+			buildConfigurationList = FA6319AB1A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "FooTests" */;
 			buildPhases = (
 				FA63199A1A1BD61F00E0E18C /* Sources */,
 				FA63199B1A1BD61F00E0E18C /* Frameworks */,
@@ -278,14 +278,14 @@
 			dependencies = (
 				FA6319A01A1BD61F00E0E18C /* PBXTargetDependency */,
 			);
-			name = GithubNotificationsTests;
+			name = FooTests;
 			productName = FooTests;
-			productReference = FA63199E1A1BD61F00E0E18C /* GithubNotificationsTests.xctest */;
+			productReference = FA63199E1A1BD61F00E0E18C /* FooTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FA6319B11A1BD62C00E0E18C /* GithubNotifications WatchKit Extension */ = {
+		FA6319B11A1BD62C00E0E18C /* Foo WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA6319D51A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "GithubNotifications WatchKit Extension" */;
+			buildConfigurationList = FA6319D51A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "Foo WatchKit Extension" */;
 			buildPhases = (
 				FA6319AE1A1BD62C00E0E18C /* Sources */,
 				FA6319AF1A1BD62C00E0E18C /* Frameworks */,
@@ -296,14 +296,14 @@
 			dependencies = (
 				FA6319C71A1BD62C00E0E18C /* PBXTargetDependency */,
 			);
-			name = "GithubNotifications WatchKit Extension";
+			name = "Foo WatchKit Extension";
 			productName = "Foo WatchKit Extension";
-			productReference = FA6319B21A1BD62C00E0E18C /* GithubNotifications WatchKit Extension.appex */;
+			productReference = FA6319B21A1BD62C00E0E18C /* Foo WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit-extension";
 		};
-		FA6319C31A1BD62C00E0E18C /* GithubNotifications Watch App */ = {
+		FA6319C31A1BD62C00E0E18C /* Foo Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA6319D21A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "GithubNotifications Watch App" */;
+			buildConfigurationList = FA6319D21A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "Foo Watch App" */;
 			buildPhases = (
 				FA6319C21A1BD62C00E0E18C /* Resources */,
 			);
@@ -311,9 +311,9 @@
 			);
 			dependencies = (
 			);
-			name = "GithubNotifications Watch App";
+			name = "Foo Watch App";
 			productName = "Foo Watch App";
-			productReference = FA6319C41A1BD62C00E0E18C /* GithubNotifications Watch App.app */;
+			productReference = FA6319C41A1BD62C00E0E18C /* Foo Watch App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
@@ -340,7 +340,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA6319811A1BD61F00E0E18C /* Build configuration list for PBXProject "GithubNotifications" */;
+			buildConfigurationList = FA6319811A1BD61F00E0E18C /* Build configuration list for PBXProject "Foo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -353,10 +353,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA6319851A1BD61F00E0E18C /* GithubNotifications */,
-				FA63199D1A1BD61F00E0E18C /* GithubNotificationsTests */,
-				FA6319B11A1BD62C00E0E18C /* GithubNotifications WatchKit Extension */,
-				FA6319C31A1BD62C00E0E18C /* GithubNotifications Watch App */,
+				FA6319851A1BD61F00E0E18C /* Foo */,
+				FA63199D1A1BD61F00E0E18C /* FooTests */,
+				FA6319B11A1BD62C00E0E18C /* Foo WatchKit Extension */,
+				FA6319C31A1BD62C00E0E18C /* Foo Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6319C51A1BD62C00E0E18C /* GithubNotifications Watch App.app in Resources */,
+				FA6319C51A1BD62C00E0E18C /* Foo Watch App.app in Resources */,
 				FA6319C11A1BD62C00E0E18C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,17 +444,17 @@
 /* Begin PBXTargetDependency section */
 		FA6319A01A1BD61F00E0E18C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA6319851A1BD61F00E0E18C /* GithubNotifications */;
+			target = FA6319851A1BD61F00E0E18C /* Foo */;
 			targetProxy = FA63199F1A1BD61F00E0E18C /* PBXContainerItemProxy */;
 		};
 		FA6319C71A1BD62C00E0E18C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA6319C31A1BD62C00E0E18C /* GithubNotifications Watch App */;
+			target = FA6319C31A1BD62C00E0E18C /* Foo Watch App */;
 			targetProxy = FA6319C61A1BD62C00E0E18C /* PBXContainerItemProxy */;
 		};
 		FA6319D01A1BD62C00E0E18C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA6319B11A1BD62C00E0E18C /* GithubNotifications WatchKit Extension */;
+			target = FA6319B11A1BD62C00E0E18C /* Foo WatchKit Extension */;
 			targetProxy = FA6319CF1A1BD62C00E0E18C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -565,7 +565,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Foo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = GithubNotifications;
+				PRODUCT_NAME = Foo;
 			};
 			name = Debug;
 		};
@@ -576,7 +576,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Foo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = GithubNotifications;
+				PRODUCT_NAME = Foo;
 			};
 			name = Release;
 		};
@@ -594,7 +594,7 @@
 				);
 				INFOPLIST_FILE = FooTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = GithubNotificationsTests;
+				PRODUCT_NAME = FooTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foo.app/Foo";
 			};
 			name = Debug;
@@ -609,7 +609,7 @@
 				);
 				INFOPLIST_FILE = FooTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = GithubNotificationsTests;
+				PRODUCT_NAME = FooTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foo.app/Foo";
 			};
 			name = Release;
@@ -625,7 +625,7 @@
 				);
 				IBSC_MODULE = Foo_WatchKit_Extension;
 				INFOPLIST_FILE = "Foo Watch App/Info.plist";
-				PRODUCT_NAME = "GithubNotifications Watch App";
+				PRODUCT_NAME = "Foo Watch App";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -639,7 +639,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				IBSC_MODULE = Foo_WatchKit_Extension;
 				INFOPLIST_FILE = "Foo Watch App/Info.plist";
-				PRODUCT_NAME = "GithubNotifications Watch App";
+				PRODUCT_NAME = "Foo Watch App";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -655,7 +655,7 @@
 				);
 				INFOPLIST_FILE = "Foo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "GithubNotifications WatchKit Extension";
+				PRODUCT_NAME = "Foo WatchKit Extension";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -665,7 +665,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Foo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "GithubNotifications WatchKit Extension";
+				PRODUCT_NAME = "Foo WatchKit Extension";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -673,7 +673,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA6319811A1BD61F00E0E18C /* Build configuration list for PBXProject "GithubNotifications" */ = {
+		FA6319811A1BD61F00E0E18C /* Build configuration list for PBXProject "Foo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA6319A61A1BD62000E0E18C /* Debug */,
@@ -682,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA6319A81A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "GithubNotifications" */ = {
+		FA6319A81A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "Foo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA6319A91A1BD62000E0E18C /* Debug */,
@@ -691,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA6319AB1A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "GithubNotificationsTests" */ = {
+		FA6319AB1A1BD62000E0E18C /* Build configuration list for PBXNativeTarget "FooTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA6319AC1A1BD62000E0E18C /* Debug */,
@@ -700,7 +700,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA6319D21A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "GithubNotifications Watch App" */ = {
+		FA6319D21A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "Foo Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA6319D31A1BD62C00E0E18C /* Debug */,
@@ -709,7 +709,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA6319D51A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "GithubNotifications WatchKit Extension" */ = {
+		FA6319D51A1BD62C00E0E18C /* Build configuration list for PBXNativeTarget "Foo WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA6319D61A1BD62C00E0E18C /* Debug */,

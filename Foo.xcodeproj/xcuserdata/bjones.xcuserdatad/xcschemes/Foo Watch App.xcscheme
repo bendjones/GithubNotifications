@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA6319C31A1BD62C00E0E18C"
-               BuildableName = "GithubNotifications Watch App.app"
-               BlueprintName = "GithubNotifications Watch App"
-               ReferencedContainer = "container:GithubNotifications.xcodeproj">
+               BuildableName = "Foo Watch App.app"
+               BlueprintName = "Foo Watch App"
+               ReferencedContainer = "container:Foo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA6319851A1BD61F00E0E18C"
-               BuildableName = "GithubNotifications.app"
-               BlueprintName = "GithubNotifications"
-               ReferencedContainer = "container:GithubNotifications.xcodeproj">
+               BuildableName = "Foo.app"
+               BlueprintName = "Foo"
+               ReferencedContainer = "container:Foo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA6319B11A1BD62C00E0E18C"
-               BuildableName = "GithubNotifications WatchKit Extension.appex"
-               BlueprintName = "GithubNotifications WatchKit Extension"
-               ReferencedContainer = "container:GithubNotifications.xcodeproj">
+               BuildableName = "Foo WatchKit Extension.appex"
+               BlueprintName = "Foo WatchKit Extension"
+               ReferencedContainer = "container:Foo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA6319C31A1BD62C00E0E18C"
-            BuildableName = "GithubNotifications Watch App.app"
-            BlueprintName = "GithubNotifications Watch App"
-            ReferencedContainer = "container:GithubNotifications.xcodeproj">
+            BuildableName = "Foo Watch App.app"
+            BlueprintName = "Foo Watch App"
+            ReferencedContainer = "container:Foo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -83,18 +83,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA6319C31A1BD62C00E0E18C"
-            BuildableName = "GithubNotifications Watch App.app"
-            BlueprintName = "GithubNotifications Watch App"
-            ReferencedContainer = "container:GithubNotifications.xcodeproj">
+            BuildableName = "Foo Watch App.app"
+            BlueprintName = "Foo Watch App"
+            ReferencedContainer = "container:Foo.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA6319C31A1BD62C00E0E18C"
-            BuildableName = "GithubNotifications Watch App.app"
-            BlueprintName = "GithubNotifications Watch App"
-            ReferencedContainer = "container:GithubNotifications.xcodeproj">
+            BuildableName = "Foo Watch App.app"
+            BlueprintName = "Foo Watch App"
+            ReferencedContainer = "container:Foo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -110,9 +110,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA6319C31A1BD62C00E0E18C"
-            BuildableName = "GithubNotifications Watch App.app"
-            BlueprintName = "GithubNotifications Watch App"
-            ReferencedContainer = "container:GithubNotifications.xcodeproj">
+            BuildableName = "Foo Watch App.app"
+            BlueprintName = "Foo Watch App"
+            ReferencedContainer = "container:Foo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <RemoteRunnable
