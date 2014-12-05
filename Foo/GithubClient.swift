@@ -46,7 +46,7 @@ struct Notification {
     let lastCommitURL: NSURL
 }
 
-let token = "REPLACE_WITH_GITHUB_TOKEN"
+let token = ""
 
 class GithubClient {
     class var sharedClient: GithubClient {

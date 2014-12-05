@@ -1,4 +1,4 @@
-//
+    //
 //  InterfaceController.swift
 //  Foo WatchKit Extension
 //
@@ -47,24 +47,20 @@ class InterfaceController: WKInterfaceController {
     var notifications = [Notification]()
     
     @IBOutlet weak var table: WKInterfaceTable?
+    
+    @IBOutlet weak var button: WKInterfaceButton?
+    
+    @IBOutlet weak var image: WKInterfaceImage?
+    
+    var lastIndex = 0
+    
+    var animateIndex = 0
 
     override init(context: AnyObject?) {
         // Initialize variables here.
         super.init(context: context)
         
-        loadData()
-        
-        dispatch_async(dispatch_get_main_queue()) {
-            GithubClient.sharedClient.fetchEvents { notes in
-                for note in notes {
-                    println("Notification \(note.id)")
-                }
-                
-                self.notifications = notes
-                
-                self.loadData()
-            }
-        }
+//        loadData()
     }
     
     func loadData() {
@@ -100,16 +96,24 @@ class InterfaceController: WKInterfaceController {
                 let data = UIImagePNGRepresentation(scaledImage)
                 
                 WKInterfaceDevice.currentDevice().addCachedImageWithData(data, name: name)
+                
+                WKInterfaceDevice.currentDevice().addCachedImageWithData(data, name: "animate-\(animateIndex)")
+                
+                animateIndex++
                 completionHandler(scaledImage)
             } else {
                 completionHandler(nil)
             }
         }
     }
+    
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        image?.setImageNamed("heart2-")
+        image?.startAnimatingWithImagesInRange(NSMakeRange(0, 53), duration: 2.5, repeatCount: 0)
         
         NSLog("%@ will activate", self)
     }
@@ -120,6 +124,10 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func buttonTap() {
+        
+    }
+    
     override func contextForSegueWithIdentifier(segueIdentifier: String, inTable table: WKInterfaceTable, rowIndex: Int) -> AnyObject?
     {
         
